@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  font-family: 'Roboto', sans-serif;
+  background-color: #161F43;
+}
+
+.navBar {
+  width: 100vw;
+  background-color: #000;
+  height: 70px;
+  display: flex;
+  color: #fff;
+}
+
+.identity {
+  color: #fff;
+  padding: 15px;
+  vertical-align: baseline;
+}
+
+.title {
+  padding-top: 20px;
+}
+
+.searchBar {
+  width: 100vw;
+  height: 60px;
+  background-color: #F8F8F8;
+}
+
+.input-group {
+  width: 100%;
+  background-color: #2067BA;
+}
+
+input {
+    background-color:transparent;
+    border: 0px solid;
+    height:30px;
+    width:260px;
+    color: #fff;
+}
+input:focus {
+    outline:none;
+    color: #fff;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.input-group {
+}
+
+.search {
+  margin-top: 5px;
+  padding: 25px;
+}
+
+.fa-search {
+  padding-top: 16px;
+  padding-right: 10px;
+  color: #fff;
+}
+
+.inputItem {
+  padding-top: 13px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  background-color: #161F43;
+}
+
+.card-deck {
+  display: flex;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.card {
+  width: 370px;
+  background-color: #000;
+  padding: 16px;
+  margin: 12px 10px;
+  color: #fff;
+}
+
+.card:hover {
+  box-shadow: 0 4px 20px 0 rgba(0,0,0,0.20);
+
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.overview {
+  line-height: 21px;
+  overflow: hidden;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #999;
+}
+
+.button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 15px;
+  font-size: 14px;
+  border: 0;
+  border-radius: 3px;
+  background-color: #2067BA;
+}
